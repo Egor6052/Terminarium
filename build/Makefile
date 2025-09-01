@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/admin1/Desktop/Terminalus
+CMAKE_SOURCE_DIR = /home/admin1/Desktop/Terminarium
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/admin1/Desktop/Terminalus/build
+CMAKE_BINARY_DIR = /home/admin1/Desktop/Terminarium/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/admin1/Desktop/Terminalus/build/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/admin1/Desktop/Terminarium/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,9 +152,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin1/Desktop/Terminalus/build/CMakeFiles /home/admin1/Desktop/Terminalus/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin1/Desktop/Terminarium/build/CMakeFiles /home/admin1/Desktop/Terminarium/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin1/Desktop/Terminalus/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin1/Desktop/Terminarium/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -233,29 +233,53 @@ component/fast:
 	$(MAKE) $(MAKESILENT) -f lib/ftxui/CMakeFiles/component.dir/build.make lib/ftxui/CMakeFiles/component.dir/build
 .PHONY : component/fast
 
-src/User/User.o: src/User/User.cpp.o
-.PHONY : src/User/User.o
+src/Background/background.o: src/Background/background.cpp.o
+.PHONY : src/Background/background.o
 
 # target to build an object file
-src/User/User.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/User/User.cpp.o
-.PHONY : src/User/User.cpp.o
+src/Background/background.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Background/background.cpp.o
+.PHONY : src/Background/background.cpp.o
 
-src/User/User.i: src/User/User.cpp.i
-.PHONY : src/User/User.i
+src/Background/background.i: src/Background/background.cpp.i
+.PHONY : src/Background/background.i
 
 # target to preprocess a source file
-src/User/User.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/User/User.cpp.i
-.PHONY : src/User/User.cpp.i
+src/Background/background.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Background/background.cpp.i
+.PHONY : src/Background/background.cpp.i
 
-src/User/User.s: src/User/User.cpp.s
-.PHONY : src/User/User.s
+src/Background/background.s: src/Background/background.cpp.s
+.PHONY : src/Background/background.s
 
 # target to generate assembly for a file
-src/User/User.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/User/User.cpp.s
-.PHONY : src/User/User.cpp.s
+src/Background/background.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Background/background.cpp.s
+.PHONY : src/Background/background.cpp.s
+
+src/Game/game.o: src/Game/game.cpp.o
+.PHONY : src/Game/game.o
+
+# target to build an object file
+src/Game/game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Game/game.cpp.o
+.PHONY : src/Game/game.cpp.o
+
+src/Game/game.i: src/Game/game.cpp.i
+.PHONY : src/Game/game.i
+
+# target to preprocess a source file
+src/Game/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Game/game.cpp.i
+.PHONY : src/Game/game.cpp.i
+
+src/Game/game.s: src/Game/game.cpp.s
+.PHONY : src/Game/game.s
+
+# target to generate assembly for a file
+src/Game/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Game/game.cpp.s
+.PHONY : src/Game/game.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -299,9 +323,12 @@ help:
 	@echo "... dom"
 	@echo "... screen"
 	@echo "... start"
-	@echo "... src/User/User.o"
-	@echo "... src/User/User.i"
-	@echo "... src/User/User.s"
+	@echo "... src/Background/background.o"
+	@echo "... src/Background/background.i"
+	@echo "... src/Background/background.s"
+	@echo "... src/Game/game.o"
+	@echo "... src/Game/game.i"
+	@echo "... src/Game/game.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

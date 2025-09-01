@@ -1,5 +1,5 @@
 lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o: \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/component/animation.cpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/component/animation.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -86,7 +86,7 @@ lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o: \
  /usr/include/c++/11/tr1/riemann_zeta.tcc /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/initializer_list \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/component/animation.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/component/animation.hpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \

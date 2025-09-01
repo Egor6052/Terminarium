@@ -33,7 +33,9 @@ endif()
 # Шлях до вихідних файлів
 set(SOURCE_FILES
     src/main.cpp
-    src/User/User.cpp
+    src/Game/game.cpp
+    src/Background/background.cpp
+    # src/User/User.cpp
 )
 
 # Додавання виконуваного файлу

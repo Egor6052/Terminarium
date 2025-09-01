@@ -1,7 +1,7 @@
 lib/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o: \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/screen/color.cpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/screen/color.cpp \
  /usr/include/stdc-predef.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/color.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/color.hpp \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -152,5 +152,5 @@ lib/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/color_info.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/terminal.hpp
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/color_info.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/terminal.hpp

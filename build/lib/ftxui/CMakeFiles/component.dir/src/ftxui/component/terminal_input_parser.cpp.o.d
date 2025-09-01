@@ -1,7 +1,7 @@
 lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o: \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/component/terminal_input_parser.cpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/component/terminal_input_parser.cpp \
  /usr/include/stdc-predef.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/component/terminal_input_parser.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/component/terminal_input_parser.hpp \
  /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -148,7 +148,7 @@ lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/component/mouse.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/component/mouse.hpp \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/memory \
@@ -168,6 +168,6 @@ lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/component/event.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/component/task.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/component/event.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/component/task.hpp \
  /usr/include/c++/11/variant /usr/include/c++/11/bits/parse_numbers.h

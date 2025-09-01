@@ -1,5 +1,5 @@
 lib/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o: \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/screen/screen.cpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/screen/screen.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -158,15 +158,15 @@ lib/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o: \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/image.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/image.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/box.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/pixel.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/color.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/screen.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/box.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/pixel.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/color.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/screen.hpp \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/refwrap.h \
  /usr/include/c++/11/bits/std_function.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
@@ -178,5 +178,5 @@ lib/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o: \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/terminal.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/string.hpp
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/terminal.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/string.hpp

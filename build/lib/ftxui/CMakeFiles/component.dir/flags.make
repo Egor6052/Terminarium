@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/admin1/Desktop/Terminalus/lib/ftxui/src -isystem /home/admin1/Desktop/Terminalus/lib/ftxui/include
+CXX_INCLUDES = -I/home/admin1/Desktop/Terminarium/lib/ftxui/src -isystem /home/admin1/Desktop/Terminarium/lib/ftxui/include
 
 CXX_FLAGS = -fPIC -std=gnu++17
 

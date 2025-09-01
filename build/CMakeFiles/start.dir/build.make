@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/admin1/Desktop/Terminalus
+CMAKE_SOURCE_DIR = /home/admin1/Desktop/Terminarium
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/admin1/Desktop/Terminalus/build
+CMAKE_BINARY_DIR = /home/admin1/Desktop/Terminarium/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/start.dir/depend.make
@@ -72,41 +72,57 @@ include CMakeFiles/start.dir/flags.make
 CMakeFiles/start.dir/src/main.cpp.o: CMakeFiles/start.dir/flags.make
 CMakeFiles/start.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/start.dir/src/main.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin1/Desktop/Terminalus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/main.cpp.o -MF CMakeFiles/start.dir/src/main.cpp.o.d -o CMakeFiles/start.dir/src/main.cpp.o -c /home/admin1/Desktop/Terminalus/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin1/Desktop/Terminarium/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/main.cpp.o -MF CMakeFiles/start.dir/src/main.cpp.o.d -o CMakeFiles/start.dir/src/main.cpp.o -c /home/admin1/Desktop/Terminarium/src/main.cpp
 
 CMakeFiles/start.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Desktop/Terminalus/src/main.cpp > CMakeFiles/start.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Desktop/Terminarium/src/main.cpp > CMakeFiles/start.dir/src/main.cpp.i
 
 CMakeFiles/start.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Desktop/Terminalus/src/main.cpp -o CMakeFiles/start.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Desktop/Terminarium/src/main.cpp -o CMakeFiles/start.dir/src/main.cpp.s
 
-CMakeFiles/start.dir/src/User/User.cpp.o: CMakeFiles/start.dir/flags.make
-CMakeFiles/start.dir/src/User/User.cpp.o: ../src/User/User.cpp
-CMakeFiles/start.dir/src/User/User.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin1/Desktop/Terminalus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/start.dir/src/User/User.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/User/User.cpp.o -MF CMakeFiles/start.dir/src/User/User.cpp.o.d -o CMakeFiles/start.dir/src/User/User.cpp.o -c /home/admin1/Desktop/Terminalus/src/User/User.cpp
+CMakeFiles/start.dir/src/Game/game.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/src/Game/game.cpp.o: ../src/Game/game.cpp
+CMakeFiles/start.dir/src/Game/game.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin1/Desktop/Terminarium/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/start.dir/src/Game/game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Game/game.cpp.o -MF CMakeFiles/start.dir/src/Game/game.cpp.o.d -o CMakeFiles/start.dir/src/Game/game.cpp.o -c /home/admin1/Desktop/Terminarium/src/Game/game.cpp
 
-CMakeFiles/start.dir/src/User/User.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/src/User/User.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Desktop/Terminalus/src/User/User.cpp > CMakeFiles/start.dir/src/User/User.cpp.i
+CMakeFiles/start.dir/src/Game/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/src/Game/game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Desktop/Terminarium/src/Game/game.cpp > CMakeFiles/start.dir/src/Game/game.cpp.i
 
-CMakeFiles/start.dir/src/User/User.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/User/User.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Desktop/Terminalus/src/User/User.cpp -o CMakeFiles/start.dir/src/User/User.cpp.s
+CMakeFiles/start.dir/src/Game/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/Game/game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Desktop/Terminarium/src/Game/game.cpp -o CMakeFiles/start.dir/src/Game/game.cpp.s
+
+CMakeFiles/start.dir/src/Background/background.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/src/Background/background.cpp.o: ../src/Background/background.cpp
+CMakeFiles/start.dir/src/Background/background.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin1/Desktop/Terminarium/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/start.dir/src/Background/background.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Background/background.cpp.o -MF CMakeFiles/start.dir/src/Background/background.cpp.o.d -o CMakeFiles/start.dir/src/Background/background.cpp.o -c /home/admin1/Desktop/Terminarium/src/Background/background.cpp
+
+CMakeFiles/start.dir/src/Background/background.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/src/Background/background.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Desktop/Terminarium/src/Background/background.cpp > CMakeFiles/start.dir/src/Background/background.cpp.i
+
+CMakeFiles/start.dir/src/Background/background.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/Background/background.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Desktop/Terminarium/src/Background/background.cpp -o CMakeFiles/start.dir/src/Background/background.cpp.s
 
 # Object files for target start
 start_OBJECTS = \
 "CMakeFiles/start.dir/src/main.cpp.o" \
-"CMakeFiles/start.dir/src/User/User.cpp.o"
+"CMakeFiles/start.dir/src/Game/game.cpp.o" \
+"CMakeFiles/start.dir/src/Background/background.cpp.o"
 
 # External object files for target start
 start_EXTERNAL_OBJECTS =
 
 start: CMakeFiles/start.dir/src/main.cpp.o
-start: CMakeFiles/start.dir/src/User/User.cpp.o
+start: CMakeFiles/start.dir/src/Game/game.cpp.o
+start: CMakeFiles/start.dir/src/Background/background.cpp.o
 start: CMakeFiles/start.dir/build.make
 start: lib/ftxui/libftxui-screen.a
 start: lib/ftxui/libftxui-dom.a
@@ -115,7 +131,7 @@ start: /usr/lib/x86_64-linux-gnu/libcurl.so
 start: lib/ftxui/libftxui-dom.a
 start: lib/ftxui/libftxui-screen.a
 start: CMakeFiles/start.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admin1/Desktop/Terminalus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable start"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admin1/Desktop/Terminarium/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable start"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/start.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +143,6 @@ CMakeFiles/start.dir/clean:
 .PHONY : CMakeFiles/start.dir/clean
 
 CMakeFiles/start.dir/depend:
-	cd /home/admin1/Desktop/Terminalus/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/admin1/Desktop/Terminalus /home/admin1/Desktop/Terminalus /home/admin1/Desktop/Terminalus/build /home/admin1/Desktop/Terminalus/build /home/admin1/Desktop/Terminalus/build/CMakeFiles/start.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/admin1/Desktop/Terminarium/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/admin1/Desktop/Terminarium /home/admin1/Desktop/Terminarium /home/admin1/Desktop/Terminarium/build /home/admin1/Desktop/Terminarium/build /home/admin1/Desktop/Terminarium/build/CMakeFiles/start.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/start.dir/depend
 

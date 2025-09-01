@@ -1,7 +1,7 @@
 lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/task.cpp.o: \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/component/task.cpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/component/task.cpp \
  /usr/include/stdc-predef.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/component/task_internal.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/component/task_internal.hpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

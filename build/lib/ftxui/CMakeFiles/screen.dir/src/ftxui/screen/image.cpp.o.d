@@ -1,5 +1,5 @@
 lib/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o: \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/screen/image.cpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/screen/image.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/sstream \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
  /usr/include/c++/11/iosfwd \
@@ -152,7 +152,7 @@ lib/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/image.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/box.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/pixel.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/color.hpp
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/image.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/box.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/pixel.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/color.hpp

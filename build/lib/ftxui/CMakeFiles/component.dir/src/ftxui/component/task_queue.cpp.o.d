@@ -1,7 +1,7 @@
 lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o: \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/component/task_queue.cpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/component/task_queue.cpp \
  /usr/include/stdc-predef.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/component/task_queue.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/component/task_queue.hpp \
  /usr/include/c++/11/queue /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -56,7 +56,7 @@ lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/parse_numbers.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/component/task_internal.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/component/task_internal.hpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \

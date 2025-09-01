@@ -1,5 +1,5 @@
 lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/component/event.cpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/component/event.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
@@ -138,9 +138,9 @@ lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/component/event.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/component/mouse.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/string.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/component/event.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/component/mouse.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/string.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \

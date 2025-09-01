@@ -1,7 +1,7 @@
 lib/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.o: \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/dom/flexbox_helper.cpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/dom/flexbox_helper.cpp \
  /usr/include/stdc-predef.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/dom/flexbox_helper.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/dom/flexbox_helper.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -44,7 +44,7 @@ lib/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.o: \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/flexbox_config.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/flexbox_config.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h /usr/include/c++/11/cstdlib \
@@ -103,10 +103,10 @@ lib/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.o: \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
  /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/cstddef \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/dom/box_helper.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/requirement.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/box.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/screen.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/dom/box_helper.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/requirement.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/box.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/screen.hpp \
  /usr/include/c++/11/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
@@ -158,7 +158,7 @@ lib/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/image.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/pixel.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/color.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/terminal.hpp
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/image.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/pixel.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/color.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/terminal.hpp

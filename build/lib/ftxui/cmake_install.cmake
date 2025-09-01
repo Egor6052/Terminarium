@@ -1,4 +1,4 @@
-# Install script for directory: /home/admin1/Desktop/Terminalus/lib/ftxui
+# Install script for directory: /home/admin1/Desktop/Terminarium/lib/ftxui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,26 +43,26 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/admin1/Desktop/Terminalus/build/lib/ftxui/libftxui-screen.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/admin1/Desktop/Terminarium/build/lib/ftxui/libftxui-screen.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/admin1/Desktop/Terminalus/build/lib/ftxui/libftxui-dom.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/admin1/Desktop/Terminarium/build/lib/ftxui/libftxui-dom.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/admin1/Desktop/Terminalus/build/lib/ftxui/libftxui-component.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/admin1/Desktop/Terminarium/build/lib/ftxui/libftxui-component.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ftxui/ftxui-targets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ftxui/ftxui-targets.cmake"
-         "/home/admin1/Desktop/Terminalus/build/lib/ftxui/CMakeFiles/Export/lib/cmake/ftxui/ftxui-targets.cmake")
+         "/home/admin1/Desktop/Terminarium/build/lib/ftxui/CMakeFiles/Export/lib/cmake/ftxui/ftxui-targets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ftxui/ftxui-targets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -71,27 +71,27 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ftxui" TYPE FILE FILES "/home/admin1/Desktop/Terminalus/build/lib/ftxui/CMakeFiles/Export/lib/cmake/ftxui/ftxui-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ftxui" TYPE FILE FILES "/home/admin1/Desktop/Terminarium/build/lib/ftxui/CMakeFiles/Export/lib/cmake/ftxui/ftxui-targets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ftxui" TYPE FILE FILES "/home/admin1/Desktop/Terminalus/build/lib/ftxui/CMakeFiles/Export/lib/cmake/ftxui/ftxui-targets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ftxui" TYPE FILE FILES "/home/admin1/Desktop/Terminarium/build/lib/ftxui/CMakeFiles/Export/lib/cmake/ftxui/ftxui-targets-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ftxui" TYPE FILE FILES
-    "/home/admin1/Desktop/Terminalus/build/lib/ftxui/cmake/ftxui-config.cmake"
-    "/home/admin1/Desktop/Terminalus/build/lib/ftxui/cmake/ftxui-config-version.cmake"
+    "/home/admin1/Desktop/Terminarium/build/lib/ftxui/cmake/ftxui-config.cmake"
+    "/home/admin1/Desktop/Terminarium/build/lib/ftxui/cmake/ftxui-config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/admin1/Desktop/Terminalus/build/lib/ftxui/ftxui.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/admin1/Desktop/Terminarium/build/lib/ftxui/ftxui.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/admin1/Desktop/Terminalus/build/lib/ftxui/examples/cmake_install.cmake")
-  include("/home/admin1/Desktop/Terminalus/build/lib/ftxui/doc/cmake_install.cmake")
+  include("/home/admin1/Desktop/Terminarium/build/lib/ftxui/examples/cmake_install.cmake")
+  include("/home/admin1/Desktop/Terminarium/build/lib/ftxui/doc/cmake_install.cmake")
 
 endif()
 

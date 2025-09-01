@@ -1,4 +1,4 @@
-# Install script for directory: /home/admin1/Desktop/Terminalus/lib/ftxui/examples
+# Install script for directory: /home/admin1/Desktop/Terminarium/lib/ftxui/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

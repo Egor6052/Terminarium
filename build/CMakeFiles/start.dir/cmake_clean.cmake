@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/start.dir/src/User/User.cpp.o"
-  "CMakeFiles/start.dir/src/User/User.cpp.o.d"
+  "CMakeFiles/start.dir/src/Background/background.cpp.o"
+  "CMakeFiles/start.dir/src/Background/background.cpp.o.d"
+  "CMakeFiles/start.dir/src/Game/game.cpp.o"
+  "CMakeFiles/start.dir/src/Game/game.cpp.o.d"
   "CMakeFiles/start.dir/src/main.cpp.o"
   "CMakeFiles/start.dir/src/main.cpp.o.d"
   "start"

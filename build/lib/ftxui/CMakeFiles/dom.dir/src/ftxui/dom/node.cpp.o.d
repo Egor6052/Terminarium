@@ -1,7 +1,7 @@
 lib/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/dom/node.cpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/dom/node.cpp \
  /usr/include/stdc-predef.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/box.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/box.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -131,7 +131,7 @@ lib/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/cstddef \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/node.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/node.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
@@ -157,8 +157,8 @@ lib/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/requirement.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/screen.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/requirement.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/screen.hpp \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
@@ -169,11 +169,11 @@ lib/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/image.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/pixel.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/color.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/terminal.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/selection.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/image.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/pixel.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/color.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/terminal.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/selection.hpp \
  /usr/include/c++/11/sstream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/ios_base.h \
  /usr/include/c++/11/bits/locale_classes.h \

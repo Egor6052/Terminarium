@@ -1,7 +1,7 @@
 lib/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o: \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/screen/box.cpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/screen/box.cpp \
  /usr/include/stdc-predef.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/box.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/box.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

@@ -1,5 +1,5 @@
 lib/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o: \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/screen/terminal.cpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/screen/terminal.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -127,7 +127,7 @@ lib/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/terminal.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/terminal.hpp \
  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
  /usr/include/x86_64-linux-gnu/bits/ioctls.h \
  /usr/include/x86_64-linux-gnu/asm/ioctls.h \

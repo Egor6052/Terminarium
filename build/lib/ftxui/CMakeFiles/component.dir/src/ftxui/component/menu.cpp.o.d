@@ -1,5 +1,5 @@
 lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o: \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/component/menu.cpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/component/menu.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -109,7 +109,7 @@ lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/c++/11/bits/parse_numbers.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/direction.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/direction.hpp \
  /usr/include/c++/11/string /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \
@@ -153,8 +153,8 @@ lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/component/animation.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/component/component.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/component/animation.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/component/component.hpp \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
@@ -171,24 +171,24 @@ lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o: \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/util/warn_windows_macro.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/component/component_base.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/component/captured_mouse.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/elements.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/canvas.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/util/warn_windows_macro.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/component/component_base.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/component/captured_mouse.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/elements.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/canvas.hpp \
  /usr/include/c++/11/cstddef \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/color.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/image.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/box.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/pixel.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/flexbox_config.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/linear_gradient.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/color.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/image.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/box.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/pixel.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/flexbox_config.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/linear_gradient.hpp \
  /usr/include/c++/11/optional \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/node.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/requirement.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/screen.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/terminal.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/selection.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/node.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/requirement.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/screen.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/terminal.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/selection.hpp \
  /usr/include/c++/11/sstream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/ios_base.h \
  /usr/include/c++/11/bits/locale_classes.h \
@@ -208,15 +208,15 @@ lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/util/ref.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/string.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/util/ref.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/string.hpp \
  /usr/include/c++/11/variant \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/take_any_args.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/deprecated.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/component/component_options.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/component/event.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/component/mouse.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/component/screen_interactive.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/take_any_args.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/deprecated.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/component/component_options.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/component/event.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/component/mouse.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/component/screen_interactive.hpp \
  /usr/include/c++/11/atomic \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/component/task.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/screen/util.hpp
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/component/task.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/screen/util.hpp

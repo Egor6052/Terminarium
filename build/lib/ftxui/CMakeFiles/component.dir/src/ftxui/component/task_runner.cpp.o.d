@@ -1,8 +1,8 @@
 lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o: \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/component/task_runner.cpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/component/task_runner.cpp \
  /usr/include/stdc-predef.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/component/task_runner.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/component/task_internal.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/component/task_runner.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/component/task_internal.hpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -110,7 +110,7 @@ lib/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o: \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/bits/nested_exception.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/component/task_queue.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/component/task_queue.hpp \
  /usr/include/c++/11/queue /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
  /usr/include/c++/11/bits/stl_queue.h /usr/include/c++/11/variant \

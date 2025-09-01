@@ -1,26 +1,35 @@
-#include <ftxui/dom/elements.hpp>
-#include <ftxui/screen/screen.hpp>
 #include <iostream>
+#include <thread>
+#include <chrono>
+#include <game.h>
+
+using namespace ftxui;
 
 int main() {
-    using namespace ftxui;
-
-    // Створюємо елемент — вертикальний бокс (vbox), що містить кілька рядків тексту.
-    auto document = vbox({
-        text("Привіт, це FTXUI!"),
-        text("Ми створюємо консольний інтерфейс."),
-        text("Натисніть Enter, щоб вийти.")
-    }) | border; // Застосовуємо модифікатор `border` для створення рамки.
-
-    // Створюємо екран і рендеримо на ньому наш документ.
-    auto screen = Screen::Create(Dimension::Full(), Dimension::Fit(document));
-    Render(screen, document);
-
-    // Виводимо вміст екрана в консоль.
-    screen.Print();
-    
-    // Чекаємо, поки користувач натисне Enter.
+    std::cout << "Завантаження гри...\n";
+    std::cout << "Використовуйте стрілки або WASD для руху\n";
+    std::cout << "ESC або Q для виходу\n";
+    std::cout << "Натисніть Enter для початку...\n";
     std::cin.get();
-
+    
+    Game game;
+    auto screen = ScreenInteractive::Fullscreen();
+    auto component = game.CreateGameComponent();
+    
+    Loop loop(&screen, component);
+    
+    // Запускаємо гру в окремому потоці
+    std::thread game_thread([&]() {
+        while (game.isRunning()) {
+            screen.PostEvent(Event::Custom);
+            std::this_thread::sleep_for(std::chrono::milliseconds(50));
+        }
+        screen.ExitLoopClosure()();
+    });
+    
+    loop.Run();
+    game_thread.join();
+    
+    std::cout << "Дякуємо за гру!\n";
     return 0;
 }

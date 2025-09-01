@@ -1,5 +1,5 @@
 lib/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: \
- /home/admin1/Desktop/Terminalus/lib/ftxui/src/ftxui/dom/paragraph.cpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/src/ftxui/dom/paragraph.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -166,7 +166,7 @@ lib/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/elements.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/elements.hpp \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
@@ -181,23 +181,23 @@ lib/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/canvas.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/canvas.hpp \
  /usr/include/c++/11/cstddef \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/color.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/image.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/box.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/pixel.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/direction.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/flexbox_config.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/linear_gradient.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/color.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/image.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/box.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/pixel.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/direction.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/flexbox_config.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/linear_gradient.hpp \
  /usr/include/c++/11/optional \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/node.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/requirement.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/screen.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/terminal.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/selection.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/util/ref.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/screen/string.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/node.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/requirement.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/screen.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/terminal.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/selection.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/util/ref.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/screen/string.hpp \
  /usr/include/c++/11/variant /usr/include/c++/11/bits/parse_numbers.h \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/take_any_args.hpp \
- /home/admin1/Desktop/Terminalus/lib/ftxui/include/ftxui/dom/deprecated.hpp
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/take_any_args.hpp \
+ /home/admin1/Desktop/Terminarium/lib/ftxui/include/ftxui/dom/deprecated.hpp
