@@ -15,6 +15,7 @@ private:
     int camera_x = 0, camera_y = 0; // Позиція камери
     GameWorld world;
     bool running = true;
+    std::string player_file = "player_pos.txt";
     
     // Методи для збереження/завантаження позиції гравця
     void savePlayerPosition();

@@ -1,8 +1,79 @@
-#include "background.h"
-#include <iostream>
+#include "../headers/background.h"
+#include <fstream>
 #include <sstream>
+#include <ctime>
 
-GameWorld::GameWorld() : rng(std::random_device{}()) {
+// Реалізація методів Vector2.
+Vector2::Vector2(double x_, double y_) : x(x_), y(y_) {}
+
+double Vector2::dot(const Vector2& other) const {
+    return x * other.x + y * other.y;
+}
+
+// Реалізація методів PerlinNoise.
+PerlinNoise::PerlinNoise(unsigned int seed) {
+    std::vector<int> p(256);
+    for (int i = 0; i < 256; i++) p[i] = i;
+    std::mt19937 gen(seed);
+    std::shuffle(p.begin(), p.end(), gen);
+    
+    permutation.resize(512);
+    for (int i = 0; i < 256; i++) {
+        permutation[i] = p[i];
+        permutation[i + 256] = p[i];
+    }
+}
+
+double PerlinNoise::Fade(double t) const {
+    return ((6 * t - 15) * t + 10) * t * t * t;
+}
+
+double PerlinNoise::Lerp(double t, double a1, double a2) const {
+    return a1 + t * (a2 - a1);
+}
+
+Vector2 PerlinNoise::GetConstantVector(int v) const {
+    int h = v & 3;
+    if (h == 0) return Vector2(1.0, 1.0);
+    else if (h == 1) return Vector2(-1.0, 1.0);
+    else if (h == 2) return Vector2(-1.0, -1.0);
+    else return Vector2(1.0, -1.0);
+}
+
+double PerlinNoise::Noise2D(double x, double y) const {
+    int X = static_cast<int>(std::floor(x)) & 255;
+    int Y = static_cast<int>(std::floor(y)) & 255;
+    
+    double xf = x - std::floor(x);
+    double yf = y - std::floor(y);
+
+    Vector2 topRight(xf - 1.0, yf - 1.0);
+    Vector2 topLeft(xf, yf - 1.0);
+    Vector2 bottomRight(xf - 1.0, yf);
+    Vector2 bottomLeft(xf, yf);
+
+    int valueTopRight = permutation[permutation[X + 1] + Y + 1];
+    int valueTopLeft = permutation[permutation[X] + Y + 1];
+    int valueBottomRight = permutation[permutation[X + 1] + Y];
+    int valueBottomLeft = permutation[permutation[X] + Y];
+
+    double dotTopRight = topRight.dot(GetConstantVector(valueTopRight));
+    double dotTopLeft = topLeft.dot(GetConstantVector(valueTopLeft));
+    double dotBottomRight = bottomRight.dot(GetConstantVector(valueBottomRight));
+    double dotBottomLeft = bottomLeft.dot(GetConstantVector(valueBottomLeft));
+    
+    double u = Fade(xf);
+    double v = Fade(yf);
+
+    return Lerp(u,
+                Lerp(v, dotBottomLeft, dotTopLeft),
+                Lerp(v, dotBottomRight, dotTopRight));
+}
+
+// Реалізація методів GameWorld.
+GameWorld::GameWorld() : perlin_noise(0), seed(0) {
+    loadSeed();
+    perlin_noise = PerlinNoise(seed);
     loadWorldFromFile();
 }
 
@@ -13,72 +84,43 @@ GameWorld::~GameWorld() {
 char GameWorld::getTerrain(int x, int y) {
     auto key = std::make_pair(x, y);
     
-    // Спочатку перевіряємо кеш
     auto cache_it = world_cache.find(key);
     if (cache_it != world_cache.end()) {
         return cache_it->second;
     }
     
-    // Намагаємося завантажити з файлу
-    char terrain = loadTerrainFromFile(x, y);
-    
-    // Якщо не знайдено в файлі, генеруємо новий
-    if (terrain == '\0') {
-        std::discrete_distribution<> dist(terrain_weights.begin(), terrain_weights.end());
-        terrain = terrain_chars[dist(rng)];
-        // Одразу зберігаємо в файл
-        saveTerrainToFile(x, y, terrain);
+    double nx = static_cast<double>(x) * frequency;
+    double ny = static_cast<double>(y) * frequency;
+    double noise_value = perlin_noise.Noise2D(nx, ny);
+    noise_value = (noise_value + 1.0) / 2.0;
+
+    double select = noise_value * 100.0;
+    int cumulative = 0;
+    char terrain = terrain_chars.back();
+    for (size_t i = 0; i < terrain_weights.size(); ++i) {
+        cumulative += terrain_weights[i];
+        if (select < cumulative) {
+            terrain = terrain_chars[i];
+            break;
+        }
     }
     
-    // Додаємо в кеш
+    saveTerrainToFile(x, y, terrain);
     world_cache[key] = terrain;
-    
-    // Очищуємо кеш якщо він занадто великий
-    if (world_cache.size() > MAX_CACHE_SIZE) {
-        clearOldCache();
-    }
     
     return terrain;
 }
 
 void GameWorld::saveTerrain(int x, int y, char terrain) {
     auto key = std::make_pair(x, y);
+    if (world_cache.find(key) != world_cache.end()) {
+        return;
+    }
     world_cache[key] = terrain;
     saveTerrainToFile(x, y, terrain);
 }
 
-char GameWorld::loadTerrainFromFile(int x, int y) {
-    std::ifstream file(world_file);
-    if (!file.is_open()) {
-        return '\0'; // Файл не існує
-    }
-    
-    std::string line;
-    while (std::getline(file, line)) {
-        std::istringstream iss(line);
-        int file_x, file_y;
-        char terrain;
-        
-        if (iss >> file_x >> file_y >> terrain) {
-            if (file_x == x && file_y == y) {
-                file.close();
-                return terrain;
-            }
-        }
-    }
-    
-    file.close();
-    return '\0'; // Не знайдено
-}
-
 void GameWorld::saveTerrainToFile(int x, int y, char terrain) {
-    // Перевіряємо чи вже існує цей запис
-    char existing = loadTerrainFromFile(x, y);
-    if (existing != '\0') {
-        return; // Вже існує, не перезаписуємо
-    }
-    
-    // Додаємо новий запис
     std::ofstream file(world_file, std::ios::app);
     if (file.is_open()) {
         file << x << " " << y << " " << terrain << "\n";
@@ -86,50 +128,59 @@ void GameWorld::saveTerrainToFile(int x, int y, char terrain) {
     }
 }
 
-void GameWorld::clearOldCache() {
-    // Простий спосіб - очищуємо половину кешу
-    auto it = world_cache.begin();
-    std::advance(it, world_cache.size() / 2);
-    world_cache.erase(world_cache.begin(), it);
-}
-
 void GameWorld::saveWorldToFile() {
-    // Зберігаємо весь кеш у файл
-    std::ofstream temp_file("world_temp.txt");
-    std::ifstream original_file(world_file);
-    
-    if (!temp_file.is_open()) {
+    std::ofstream file(world_file);
+    if (!file.is_open()) {
         return;
     }
     
-    // Спочатку копіюємо існуючі дані
-    if (original_file.is_open()) {
-        std::string line;
-        while (std::getline(original_file, line)) {
-            temp_file << line << "\n";
-        }
-        original_file.close();
-    }
-    
-    // Додаємо дані з кешу (якщо їх ще немає у файлі)
     for (const auto& entry : world_cache) {
         int x = entry.first.first;
         int y = entry.first.second;
         char terrain = entry.second;
-        
-        // Перевіряємо чи вже є цей запис
-        if (loadTerrainFromFile(x, y) == '\0') {
-            temp_file << x << " " << y << " " << terrain << "\n";
-        }
+        file << x << " " << y << " " << terrain << "\n";
     }
     
-    temp_file.close();
-    
-    // Замінюємо оригінальний файл
-    std::rename("world_temp.txt", world_file.c_str());
+    file.close();
 }
 
 void GameWorld::loadWorldFromFile() {
-    // При запуску просто очищуємо кеш - дані будуть завантажуватися по потребі
     world_cache.clear();
+    std::ifstream file(world_file);
+    if (!file.is_open()) {
+        return;
+    }
+    
+    std::string line;
+    while (std::getline(file, line)) {
+        std::istringstream iss(line);
+        int x, y;
+        char terrain;
+        
+        if (iss >> x >> y >> terrain) {
+            auto key = std::make_pair(x, y);
+            world_cache[key] = terrain;
+        }
+    }
+    
+    file.close();
+}
+
+void GameWorld::loadSeed() {
+    std::ifstream file(seed_file);
+    if (file.is_open()) {
+        file >> seed;
+        file.close();
+    } else {
+        seed = static_cast<unsigned int>(std::time(0));
+        saveSeed();
+    }
+}
+
+void GameWorld::saveSeed() {
+    std::ofstream file(seed_file);
+    if (file.is_open()) {
+        file << seed << "\n";
+        file.close();
+    }
 }

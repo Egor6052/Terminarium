@@ -1,5 +1,32 @@
-#include "game.h"
+#include <game.h>
 #include <string>
+#include <fstream>
+
+Game::Game() {
+    loadPlayerPosition();
+}
+
+Game::~Game() {
+    savePlayerPosition();
+}
+
+void Game::savePlayerPosition() {
+    std::ofstream file(player_file);
+    if (file.is_open()) {
+        file << player_x << " " << player_y << "\n";
+        file.close();
+    }
+}
+
+void Game::loadPlayerPosition() {
+    std::ifstream file(player_file);
+    if (!file.is_open()) {
+        return; // Залишити позицію за замовчуванням (0, 0)
+    }
+    
+    file >> player_x >> player_y;
+    file.close();
+}
 
 Component Game::CreateGameComponent() {
     auto component = Renderer([&] {
