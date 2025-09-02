@@ -46,25 +46,25 @@ Component Game::CreateGameComponent() {
                 int world_x = camera_x + x;
                 int world_y = camera_y + y;
                 
-                char display_char;
+                unsigned char display_char;
                 Color text_color = Color::White;
                 
                 // Перевіряємо, чи це позиція персонажа
                 if (world_x == player_x && world_y == player_y) {
-                    display_char = '@';
-                    text_color = Color::Yellow;
+                    display_char = '8';
+                    text_color = Color::White;
                 } else {
                     display_char = world.getTerrain(world_x, world_y);
                     
                     // Додаємо кольори для різних типів поверхні
                     switch (display_char) {
-                        case '.': text_color = Color::Green; break;
-                        case ',': text_color = Color::GreenLight; break;
-                        case '~': text_color = Color::Blue; break;
-                        case '^': text_color = Color::White; break;
-                        case '*': text_color = Color::Yellow; break;
-                        case 'o': text_color = Color::Red; break;
-                        case '+': text_color = Color::Magenta; break;
+                        case '.': text_color = Color::Blue3Bis; break;
+                        case ',': text_color = Color::Blue; break;
+                        case '~': text_color = Color::Yellow; break;
+                        case '^': text_color = Color::Yellow3Bis; break;
+                        case '*': text_color = Color::GreenLight; break;
+                        case 'o': text_color = Color::Green3Bis; break;
+                        case '+': text_color = Color::Green; break;
                         case '#': text_color = Color::GrayDark; break;
                     }
                 }

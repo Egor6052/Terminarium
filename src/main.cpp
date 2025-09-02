@@ -9,8 +9,8 @@ int main() {
     std::cout << "Завантаження гри...\n";
     std::cout << "Використовуйте стрілки або WASD для руху\n";
     std::cout << "ESC або Q для виходу\n";
-    std::cout << "Натисніть Enter для початку...\n";
-    std::cin.get();
+    // std::cout << "Натисніть Enter для початку...\n";
+    // std::cin.get();
     
     Game game;
     auto screen = ScreenInteractive::Fullscreen();
@@ -29,7 +29,5 @@ int main() {
     
     loop.Run();
     game_thread.join();
-    
-    std::cout << "Дякуємо за гру!\n";
     return 0;
 }

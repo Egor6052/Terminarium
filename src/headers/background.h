@@ -40,7 +40,7 @@ private:
     std::map<std::pair<int, int>, char> world_cache;
     std::mt19937 rng;
     std::string world_file = "world.txt";
-    std::string seed_file = "seed.txt"; // Додано для збереження seed.
+    std::string seed_file = "seed.txt";
 
     // Поля для генерації ландшафту
     PerlinNoise perlin_noise;
@@ -48,7 +48,7 @@ private:
     double frequency = 0.05;
 
     const std::vector<char> terrain_chars = {'.', ',', '~', '^', '*', 'o', '+', '#'};
-    const std::vector<int> terrain_weights = {30, 25, 10, 8, 8, 8, 6, 5};
+    const std::vector<int> terrain_weights = {5, 6, 8, 8, 8, 10, 25, 30};
 
     // Методи для роботи з файлом
     void saveTerrainToFile(int x, int y, char terrain);
